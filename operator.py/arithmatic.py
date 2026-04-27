@@ -1,0 +1,7 @@
+alpha=float(input("Enter the value of alpha: "))
+beta=float(input("Enter the value of beta: "))
+print("The sum of alpha and beta is:",alpha+beta)
+print("The difference of alpha and beta is:",alpha-beta)
+print("The product of alpha and beta is:",alpha*beta)
+print("The quotient of alpha and beta is:",alpha/beta)
+print("The modulus of alpha and beta is:",alpha%beta)
