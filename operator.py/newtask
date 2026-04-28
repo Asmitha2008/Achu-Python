@@ -1,0 +1,8 @@
+name=input("enter your name")
+standard=int(input("enter your standard"))
+if name=="ASMITHA" and standard==12: 
+    print("welcome to python class")
+elif name=="ASMITHA" and standard!=12:
+    print("welcome to python class but you are in different class")
+else:
+    print("you are not registered for this class")
