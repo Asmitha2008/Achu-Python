@@ -1,0 +1,10 @@
+print("pls place your atm card")
+account=int(input("Enter your account number: "))
+initial_amount=int(input("Enter the  initial amount in your account: "))
+withdraw=int(input("Enter the amount you want to withdraw: "))
+deposit=int(input("Enter the amount you want to deposit: "))
+total_amount=initial_amount-withdraw+deposit
+print("You have withdrawn rupees",withdraw)
+print("you have deposited rupees",deposit)
+print("Your remaining balance is",total_amount)
+print("Thank you for using our banking system!")
