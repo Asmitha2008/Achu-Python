@@ -15,6 +15,7 @@ print("Length of list:", len(Bio))
 #adding values to list at specific index
 Bio.insert(1,"Female")
 print(Bio)
+
 #replace values in list
 Bio[4]="Python"
 print(Bio)
